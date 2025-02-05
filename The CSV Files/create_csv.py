@@ -1,6 +1,6 @@
 import csv
 
-csv_file = [
+data = [
     ["Email", "Area_of_Interest"],
     ["patiencemnena5996@gmail.com", "Genomics"],
     ["ibrahimnuhupaki8@gmail.com", "System Biology"],
@@ -12,5 +12,5 @@ csv_file = [
 
 with open("data.csv", "w", newline="") as file:
     writer = csv.writer(file)
-    writer.writerows(csv_file)
+    writer.writerows(data)
 print("CSV file 'data.csv' created successfully")
